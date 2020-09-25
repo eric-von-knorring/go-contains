@@ -46,12 +46,13 @@ sudo make install
 
 The  following are all the status codes that the program will terminate
 with.
-
+```
   0.     The given words where found.
 
   1.     The given words where not found.
 
   127.   The file could not be opened.
+```
 
 # Usage
 
