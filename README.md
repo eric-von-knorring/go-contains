@@ -14,7 +14,7 @@ Contains  is  a  command  line tool to check if given words exists in a text and
 
 # Installation
 
-*On linux*
+**On linux**
 
 Clone the repository and cd into it.
 
