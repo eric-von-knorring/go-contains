@@ -97,7 +97,7 @@ func waitForTextResult(latch int) {
 
 func Execute() {
 	rootCommad.PersistentFlags().BoolVar(&anyMatch, "any", false, "Exit with error code 0 when any word matches")
-	rootCommad.PersistentFlags().StringVarP(&file, "file", "f", "", "Exit with error code 0 when any word matches")
+	rootCommad.PersistentFlags().StringVarP(&file, "file", "f", "", "Read from a given file instead of standard in")
 	if err := rootCommad.Execute(); err != nil {
 		fmt.Println(err)
 		os.Exit(127)

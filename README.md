@@ -12,6 +12,23 @@ contains [ OPTIONS ] < WORDS >
 
 Contains  is  a  command  line tool to check if given words exists in a text and return a exit code depending on the result. It is  created  in order to simplify bash scripts.
 
+# Installation
+
+*On linux*
+
+Clone the repository and cd into it.
+
+```
+git clone git@github.com:eric-von-knorring/go-contains.git
+cd go-contains
+```
+
+In order to install the binary and manuall pages run.
+
+```
+sudo make install
+```
+
 # Options
 
 ```
