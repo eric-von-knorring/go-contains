@@ -10,7 +10,7 @@ contains [ OPTIONS ] < WORDS >
 
 # Description
 
-Contains  is  a  command  line tool to check if given words exists in a text and return a exit code depending on the result. It is  created  in order to simplify bash scripts.
+Contains is a command line tool to check if given words exists in a text and return a exit code depending on the result. It is  created  in order to simplify bash scripts.
 
 # Installation
 
@@ -23,7 +23,7 @@ git clone git@github.com:eric-von-knorring/go-contains.git
 cd go-contains
 ```
 
-In order to install the binary and manuall pages run.
+In order to install the binary and manual pages run.
 
 ```
 sudo make install
@@ -38,14 +38,13 @@ sudo make install
         Reads from file instead of standard input.
 
   -h, --help
-        Prints help text for youtube-search.
+        Prints help text for contains.
 ```
 
 
 # Exit Status
 
-The  following are all the status codes that the program will terminate
-with.
+The following are all the status codes that the program will terminate with.
 ```
   0.     The given words where found.
 
@@ -56,7 +55,7 @@ with.
 
 # Usage
 
-This program can be used in scripts in order to check for specific values  in output form other programs. The resulting status code from contains can then be used in order to run diffrent scritps  that  are  depending on certain condetions.
+This program can be used for scripts in order to check for specific values in output form other programs. The resulting status code from contains can then be used in order to run different scripts that are depending on certain conditions.
 
 ```
 xrandr  |  grep ' connected' | cut -d' ' -f1 | contains DP1 HDM2 && $HOME/.screenlayout/setup.sh
